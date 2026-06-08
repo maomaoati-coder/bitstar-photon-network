@@ -189,35 +189,6 @@ All results independently produced by the author. No institutional affiliation.
 
 ---
 
-## Repository Structure
-
-```
-bitstar-photon-network/
-│
-├── README.md                          ← This file
-│
-├── whitepaper/
-│   └── BITSTAR_WHITEPAPER_v1.0.md    ← Full technical whitepaper
-│
-├── prior-art-record/
-│   └── BITSTAR_PRIOR_ART_v1.0.md    ← Prior art disclosure + SHA256
-│
-├── verification/
-│   ├── step1-geoaddress/
-│   │   ├── geo_addr.sv               ← SystemVerilog source
-│   │   └── results.log               ← EDA Playground log output
-│   ├── step2-routing/
-│   │   ├── bitstar_step2.py          ← Python simulation
-│   │   └── bitstar_step2.png         ← Output chart
-│   └── step3-link-tiering/
-│       ├── bitstar_step3.py          ← Python simulation
-│       └── bitstar_step3.png         ← Output chart
-│
-└── LICENSE                            ← MGOVL v2.0
-```
-
----
-
 ## Prior Art
 
 This architecture is publicly disclosed as prior art. All claims, protocols, and simulation results are timestamped via SHA256 hash on public GitHub.
